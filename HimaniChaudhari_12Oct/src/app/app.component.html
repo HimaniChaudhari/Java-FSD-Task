@@ -1,0 +1,58 @@
+<app-employee [employeeInput]="PaymentData" (eventobj)="getData($event)"></app-employee>
+<p>Data from child <span [ngStyle]="{ color:'white'}">{{dataFromEmployee}}</span></p>
+
+<h2>App component Directives</h2>
+<h2>ngIf angular </h2>
+<h4 *ngIf="15>13"> hiii guys</h4>
+<h4 *ngIf="Flag">got it </h4>
+
+<!-- <h2>ngModel angular </h2> -->
+<h2>ngSwitch angular </h2>
+<form>
+    Enter input:<input type="text" name="choice" [(ngModel)]="choice">
+</form>
+
+
+<div [ngSwitch]="choice">
+    <div *ngSwitchCase="'A'">Option A selected</div>
+    <div *ngSwitchCase="'B'">Option B selected</div>
+    <div *ngSwitchCase="'C'">Option B selected</div>
+    <div *ngSwitchDefault>Incorrect character Enter A,B or C</div>
+</div>
+
+<h2>details of employees using ngSwitch </h2>
+<p>Just type a name of candidate for photograph...</p>
+<form>
+   <p [ngStyle]="{color:'white'}">Enter names in lowercase only:<input type="text" name="data" [(ngModel)]="data" ></p>
+</form>
+
+
+<div [ngSwitch]="data">
+    <div *ngSwitchCase="'utkarsh'"><img src="../assets/utkarsh.jpg" width="200px" height="250px"></div>
+    <div *ngSwitchCase="'himani'"><img src="../assets/himani.jfif" width="250px" height="250px"></div>
+    <div *ngSwitchCase="'pooja'"> <img src="../assets/pooja.jpg" width="200px" height="250px"></div>
+    <div *ngSwitchCase="'narayan'"> <img src="../assets/narayan.jfif" width="200px" height="250px"></div>
+    <div *ngSwitchCase="'shruti'"> <img src="../assets/shruti.jfif" width="200px" height="250px"></div>
+    <div *ngSwitchDefault>Enter your name</div>
+</div>
+
+<h2>ngFor angular </h2>
+<ul>
+    <li *ngFor="let name of names;">{{name}}</li>
+
+</ul>
+
+<h2>ngStyle angular </h2>
+
+<h4 [ngStyle]="{color:mycolor}">Starhealth Employee, Baner, Pune.</h4>
+
+<h2>Angular Pipes</h2>
+<h3>Date using Pipes:</h3>
+<h4 > The longest day in the year {{Ldate|date}}</h4>
+
+<h3>Currency using Pipes:</h3>
+<h4>Indian Currency {{ 2550 | currency:"INR":"symbol-narrow" }} </h4>
+<h4>Canadian Currency {{ 34876 | currency:"CAD":"symbol-narrow" }} </h4>
+
+<h3>Decimal numbers using Pipes:</h3>
+<h4>{{ 3.141 | number: '3.1-2' }}</h4>
