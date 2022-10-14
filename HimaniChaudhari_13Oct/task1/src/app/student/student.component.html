@@ -1,0 +1,17 @@
+<p>Angular Template Driven Form with Form Controls and Validation</p>
+
+<form  #myform="ngForm" class="container col-md-4" (ngSubmit)="getFormData(myform.value)">
+<div class="form-group">
+    <label>Name:</label><input type="text" class="form-control" name="Name" #Namecontrol="ngModel" required ngModel>
+    <span style="color: rgb(255, 102, 0)" *ngIf="Namecontrol.touched && Namecontrol.invalid">Name is Mandatory</span>
+</div>
+<div class="form-group">
+    <label>Class</label><input type="number" class="form-control"  name="Class" #Classcontrol="ngModel"  required ngModel>
+    <span style="color: rgb(255, 102, 0)" *ngIf="Classcontrol.touched && Classcontrol.invalid">Class is Mandatory</span>
+</div>
+<div class="form-group">
+    <label>TeacherId Assigned</label><input type="number" class="form-control"  name="TeacherId" #TeacherIdcontrol="ngModel" ngModel>
+    <span style="color: rgb(255, 102, 0)" *ngIf="TeacherIdcontrol.touched && TeacherIdcontrol.invalid">TeacherId is Mandatory</span>
+</div>
+    <button type="submit"  class="btn btn-success" [disabled]="myform.invalid">Submit</button>
+</form>
