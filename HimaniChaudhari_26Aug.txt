@@ -1,0 +1,24 @@
+Q.1). What is Testing?
+Ans. Software testing is the process of evaluating and verifying that a software product or application does what it is 
+     supposed to do. Software testing is the process of executing a program with the aim of finding the error.
+
+Q.2). What are the stages in testing?
+Ans. Planning, Analysis, Design, Development, Testing, Implementation, and Maintenance.
+
+Q.3). Difference between automated and manual Testing?
+Ans. In manual testing, a human performs the tests step by step, without test scripts. In automated testing, tests are 
+     executed automatically via test automation frameworks, along with other tools and software.
+     In manual testing, the human tester does testing. In automation testing, the tool does it.
+
+Q.4). What is Selenium?
+Ans. Selenium is an open-source,  automated testing tool & used to test web applications across various browsers.
+
+Q.5). Why to prefer selenium?
+Ans. Because it is Open Source, Platform Independent, also can be integrated with other tools like JUnit,
+     can code in any language and it requires fewer resources.
+
+Q.6). Different components of selenium?
+Ans. 1. SELENIUM RC
+     2. SELENIUM IDE
+     3. SELENIUM WEBDRIVER
+     4. SELENIUM GRID 
