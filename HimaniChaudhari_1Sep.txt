@@ -1,0 +1,26 @@
+Q.1. What is git?
+Ans. Git is a free and open source distributed version control system designed to handle everything from small to very 
+     large projects with speed and efficiency.
+
+Q.2. What is jenkins?
+Ans. Jenkins is an open source automation server. It helps automate the parts of software development related to building, 
+     testing, and deploying, facilitating continuous integration and continuous delivery. It is a server-based system that 
+     runs in servlet containers such as Apache Tomcat.
+
+Q.3. What is devops?
+Ans. DevOps is a set of practices that combines software development and IT operations. It aims to shorten the systems 
+     development life cycle and provide continuous delivery with high software quality. DevOps is complementary with Agile 
+     software development
+
+Q.4. Is devops a tool?
+Ans. No.
+
+Q.5. Is devops a practice?
+Ans. Yes.
+
+Q.6. Why to prefer devops?
+Ans.  It encourages teams to continuously experiment with the aim of improving the company's products and services. That 
+      way, both development and operations teams are enabled to research new customer needs and develop innovations to 
+      address them.
+
+
