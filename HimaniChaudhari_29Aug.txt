@@ -1,0 +1,45 @@
+1. WHAT ARE THE DIFF CLOUD ENVIRONMENTS AVAILABLE?
+Ans. Private Clouds, Public Clouds, Hybrid Clouds.
+
+2. WHAT IS SAAS? EXAMPLE?
+Ans. The software or app is accessed via any internet enabled device such as smartphone or a laptop. 
+     For example: Gmail, Slack, and Microsoft Office 365.
+
+3. WHAT IS PAAS?EXAMPLE?
+Ans. Platform as a service (PaaS) is a complete development and deployment environment in the cloud, with resources that enable 
+     you to deliver everything from simple cloud-based apps to sophisticated, cloud-enabled enterprise applications. For
+     example: HEROKU.
+
+4. WHAT IS AZURE?
+Ans. It is an open and flexible cloud platform which provides a range of cloud services i.e., helps  in development, 
+     data storage, compute,analytics, service hosting, networking and service management. 
+     The Azure tool hosts web applications over the internet with the help of Microsoft data centers.
+     Azure is present in 160+locations.
+
+
+5. WHAT ARE THE AZURE CONTAINER SERVICES?
+Ans. A storage account can include an unlimited number of containers, and a container can store an unlimited number of blobs.
+
+6. WHAT ARE THE AZURE NETWORKING SERVICES?
+Ans. Virtual network 
+     Load balancer
+     Application gateway
+     VPN gateway
+     Azure dns
+     CDN
+     Traffic manager
+     Express route
+
+7. WHAT IS AWS?
+Ans. AWS (Amazon Web Services) is a comprehensive, evolving cloud computing platform provided by Amazon that includes a 
+     mixture of infrastructure as a service (IaaS), platform as a service (PaaS) and packaged software as a service (SaaS) offerings.
+
+8. WHAT ARE THE AVAILABLE AWS SERVICES?
+Ans. Storage
+     Database
+     Compute 
+     Messaging 
+     Security aspect
+     Compute
+     Networking
+     Machine Learning
