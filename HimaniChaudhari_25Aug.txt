@@ -1,0 +1,49 @@
+----------------------------TASKS--------------------------
+1. write a print statement in python stating your name and your emp id
+Ans.	print("Himani Chaudhari")
+	print("SH68039")
+
+2. check the type of a variable
+Ans.	id = "SH68039"
+	print("The variable id is of type: ",type(id))
+
+3. create a variable and assign int value and then try reassigning string value for that. 
+Ans.	number = 200
+	print(number)
+	number = "Two Hundread"
+	print(number)
+
+4. using simple if, check whether 20 is greater than 10. IF so, print that number 20 is greater
+Ans.	if 20>10:
+ 	 print("20 is greater than 10.")
+
+5. Insert the missing part of the code below to output "Hello World"   
+           ("Hello World")
+Ans.	print('("Hello World")')
+           
+6. Create a variable named icecream and assign the value strawberry to it.
+Ans.	icecream = "strawberry"
+	print(icecream)
+
+7.Create a variable named x and assign the value 50 to it.
+Ans.	x = 50
+	print(x)
+
+8. Create a variable called z. Assign any value to x and y . assign x + y to z, and display the result.
+Ans.	x = 50
+	y = 20
+	z = x+y
+	print(z)
+
+9. what would be the output of below code?
+	x = "Hello World"
+	print(type(x))
+
+Ans.		<class 'str'>
+
+10. The following code example would print the data type of x, what data type would that be?
+	x = 20.5
+	print(type(x))
+
+Ans.		<class 'float'>
+
