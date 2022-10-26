@@ -1,0 +1,68 @@
+Q.1. What is sdlc?
+Ans.  The Software Development Life Cycle (SDLC) is a structured process that enables the production of high-quality, 
+      low-cost software, in the shortest possible production time.
+      - Planning and analysis.
+      - Designing the product architecture.
+      - Developing and coding.
+      - Testing.
+      - Maintenance.
+
+Q.2. Types of sdlc models?
+Ans. - Waterfall Model
+     - Spiral Model
+     - V Model
+     - Incremental Model
+     - Agile Model
+
+Q.3. What is Waterfall model?
+Ans. The waterfall model is a continuous software development model in which development is seen as flowing steadily 
+     downwards (like a waterfall) through the steps of requirements analysis, design, implementation, testing (validation), 
+     integration, and maintenance.
+
+Q.4. What is Agile Model?
+Ans. Agile methodology is a practice which promotes continues interaction of development and testing during the SDLC 
+     process of any project. In the Agile method, the entire project is divided into small incremental builds. All of 
+     these builds are provided in iterations, and each iteration lasts from one to three weeks.
+
+Q.5. How should a Scrum team be?
+Ans. A Scrum team should consist of less than 9 people. For large enterprise projects, the ideal Scrum team size is 7 
+     people (product owner, scrum master, and 5 developers). 
+
+Q.6. Scrum Master role & responsibilities?
+Ans. The scrum master helps to facilitate scrum to the larger team by ensuring the scrum framework is followed.
+     - To coach the organization and group to adopt and use Scrum in the organization
+     - To assist the team in making effective enhancements to the product.
+     - To lead the Scrum Team into healthy conflicts and debates about the strategies and ideas of the product to enhance the product quality.
+     - To prevent and eliminate impediments
+     - To develop self-management skills in the Developers.
+
+Q.7. Product owner & responsibilities?
+Ans. - Managing and prioritizing the product backlog.
+     - Translating product managers' strategies to tasks for development.
+     - Learning the market and customers' needs.
+     - Serving as a liaison between product and development.
+     - Staying accessible to development to answer questions.
+
+
+Q.8. What are the scrum ceremonies available? and give 2 points about each meeting...like what's the usage of meeting and 
+     how frequent it should happen?
+Ans. 1. Sprint Planning - Sprint Planning is the scrum ceremony designed to make sure the team is prepared to get the right 
+                          things done every sprint. 
+                          In terms of Sprint Planning, it should last 2 times the length of the sprint (in hours). For 
+                          example, if your sprint is 2 weeks long, the Sprint Planning ceremony should last no longer than 
+                          4 hours.   
+
+     2. Daily Scrum - The Daily Scrum is the team’s chance to get together, define a plan for the day’s work, and identify 
+                      any blockers.
+                      It should last no more than 15 minutes. Easier said than done.
+
+     3. Sprint Review - The Sprint Review is the scrum ceremony where all work completed during the sprint can be showcased 
+                        the stakeholders.
+                        One hour per week of the sprint. As an example, a two-hour Sprint Review should be scheduled for a 
+                        two-week sprint.
+
+     4. Sprint Retrospective - After a Sprint Review has been conducted, the scrum team needs to have the opportunity to 
+                               reflect on the work that was just showcased and discuss ways in which to improve. The sprint
+                               retrospective is that meeting.
+                               Sprint retrospectives should last no more than 1.5 hours for a two-week sprint. 
+
