@@ -1,0 +1,13 @@
+Q.1. What is CI?
+Ans. Continuous integration (CI) is the practice of automating the integration of code changes from multiple contributors 
+     into a single software project.
+
+Q.2. What is CD?(delivery,deployment)
+Ans. Continuous delivery lets developers automate testing beyond just unit tests so they can verify application updates 
+     across multiple dimensions before deploying to customers. 
+
+Q.3. What is the usage of git?
+Ans. Git is a DevOps tool used for source code management. It is a free and open-source version control system used to 
+     handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple
+     developers to work together on non-linear development.
+
