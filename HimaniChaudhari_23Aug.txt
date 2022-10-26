@@ -1,0 +1,26 @@
+Q.1). What is Microservice architecture?
+Ans. It is a development style that allows to develop application as a collection of small services. In Microservices 
+	the development is done based on different modules acoording to requirement and their is separate deployments
+	for every module. The application handles Http Request and returns HTML/XML response to client.
+
+Q.2). What are the advantages of microservices?
+Ans. 1. Microservices can be written in a variety of programming languages, and frameworks, and each service acts as a 
+	mini-application on its own. 
+     2. Application is broken into smaller modules that are easy for developers to code and maintain.
+     3. Large applications remain largely unaffected by the failure of a single module.
+     4. Microservices enable data separation. Each service has its own database, making it harder for hackers to compromise
+	your application.
+
+Q.3). Write down the port of microservices components?
+Ans. Spring Cloud Config Server          8888
+     Netflix Eureka NAming Server        8761
+     Netflix Zuul API GAteway Server     8765
+     Zipkin Distributed Tracing Server   9411
+
+Q.4). What are the components of microservices?
+Ans. 	Spring Cloud Config Server
+	Netflix Eureka Naming Server
+	Hystrix Server
+	Netflix ZuulAPI Gateway Server
+	Netflix Ribbon
+	Zipkin Distributed Tracing Server
